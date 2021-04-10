@@ -1,0 +1,16 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="nodejsPath" value="" />
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonarcloud.io" />
+          <token>df93df99df9fdf9edf99df9ddf9adfc8dfcedf9adfc8df9adf93df9edf9fdfcfdf9fdf92dfc8df99df9bdfc9df9ddf9bdf9adfcbdf99dfccdf92df9edfcbdf9bdf92dfccdfcfdfccdf9adf92df9fdfc8</token>
+          <option name="name" value="Trilogy" />
+          <organizationKey>trilogy-group</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+    <rules />
+  </component>
+</application>
