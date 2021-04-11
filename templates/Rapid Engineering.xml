@@ -1,0 +1,8 @@
+<templateSet group="Rapid Engineering">
+  <template name="st" value="export default class $STATE_NAME {&#10;    private readonly _isLoading$ = new BehaviourSubject&lt;boolean&gt;(true);&#10;&#10;    constructor(private readonly _svc: $SERVICE) {}&#10;}" description="Create a new State" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TS_CLASS" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
