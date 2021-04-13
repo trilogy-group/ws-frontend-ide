@@ -11,6 +11,7 @@
         </SonarQubeServer>
       </list>
     </option>
+    <option name="taintVulnerabilitiesTabDisclaimerDismissed" value="true" />
     <rules />
   </component>
 </application>
