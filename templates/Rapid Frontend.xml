@@ -1,0 +1,17 @@
+<templateSet group="Rapid Frontend">
+  <template name="bs" value="/** Holds $entity$ raw data visible only to the state. Other layers can acces this as observable. */&#10;private readonly _$entity$$ = new BehaviorSubject&lt;$type$&gt;($defaultValue$);&#10;&#10;/** Exposes $entity$ to other layers such as Facade or Services */&#10;public $entity$$ = this._$entity$$.asObservable();&#10;&#10;/** Emits the new value of the $entity$ */&#10;public set$entity$(value: $type$): void {&#10;    this._$entity$$.next(value);&#10;}" description="Create Behaviour Subject" toReformat="true" toShortenFQNames="true">
+    <variable name="entity" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;any[]&quot;" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="&quot;[]&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="inp-text" value="&lt;mat-form-field appereance=&quot;fill&quot;&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;input matInput type=&quot;text&quot; placeholder=&quot;$placeholder$&quot; /&gt;&#10;&lt;/mat-form-field&gt;&#10;&#10;$END$" description="Creates a Material Test Input" toReformat="true" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
