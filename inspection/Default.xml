@@ -1,3 +1,9 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="2d4fdf81-2d33-356e-945a-b20937f0e56c" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <replaceConfiguration name="Export default" problemDescriptor="Export default is required" text="export class Test {}" recursive="false" caseInsensitive="false" type="JavaScript" dialect="TypeScript" reformatAccordingToStyle="false" shortenFQN="false" replacement="export default class Test {}">
+      <constraint name="__context__" within="" contains="" />
+    </replaceConfiguration>
+  </inspection_tool>
 </profile>
