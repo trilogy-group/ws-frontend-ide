@@ -7,4 +7,12 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
+  <template name="input-text" value="&lt;mat-form-field appereance=&quot;fill&quot;&gt;&#10;  &lt;label&gt;$label$&lt;/label&gt;&#10;  &lt;input type=&quot;text&quot; formControlName=&quot;$controlName$&quot; placeholder=&quot;$placeholder$&quot; /&gt;&#10;&lt;/mat-form-field&gt;" description="Insert Material Text Input" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controlName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
