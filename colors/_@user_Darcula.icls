@@ -1,0 +1,14 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2021-04-14T10:05:53</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2021.1.0.0</property>
+    <property name="modified">2021-04-15T05:57:59</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <colors>
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d4984a" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d4984a" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d4984a" />
+  </colors>
+</scheme>
