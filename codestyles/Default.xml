@@ -3,6 +3,14 @@
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="SOFT_MARGINS" value="100" />
+  <ScssCodeStyleSettings>
+    <option name="HEX_COLOR_UPPER_CASE" value="true" />
+    <option name="HEX_COLOR_LONG_FORMAT" value="true" />
+    <option name="VALUE_ALIGNMENT" value="2" />
+    <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
+  </ScssCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="JSDOC_INCLUDE_TYPES" value="true" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -28,6 +36,25 @@
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
+  <codeStyleSettings language="SCSS">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+    <arrangement>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <NAME>.*</NAME>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
+  </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
