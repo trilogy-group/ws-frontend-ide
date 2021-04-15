@@ -1,5 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Angular CLI" shouldLog="false" playSound="true" />
     <notification groupId="Structural Search" displayType="STICKY_BALLOON" playSound="true" />
   </component>
 </application>
