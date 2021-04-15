@@ -43,4 +43,5 @@
       </TypeScript.ts.type.hints>
     </settingsMapElement>
   </component>
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" updateFilesToCompile="true" />
 </application>
