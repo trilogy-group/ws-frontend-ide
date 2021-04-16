@@ -7,10 +7,12 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
-  <template name="input-text" value="&lt;mat-form-field appereance=&quot;fill&quot;&gt;&#10;  &lt;label&gt;$label$&lt;/label&gt;&#10;  &lt;input type=&quot;text&quot; formControlName=&quot;$controlName$&quot; placeholder=&quot;$placeholder$&quot; /&gt;&#10;&lt;/mat-form-field&gt;" description="Insert Material Text Input" toReformat="false" toShortenFQNames="true">
-    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="controlName" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="mat-select" value="&lt;mat-form-field appearance=&quot;fill&quot;&gt;&#10;  &lt;mat-label&gt;$Label$&lt;/mat-label&gt;&#10;  &lt;mat-select&gt;&#10;    &lt;mat-option *ngFor=&quot;let option of $Options$$ | async&quot; [value]=&quot;option.$Value$&quot; trackedBy=&quot;$TrackFn$&quot;&gt;&#10;      {{option.$ViewValue$}}&#10;    &lt;/mat-option&gt;&#10;  &lt;/mat-select&gt;&#10;&lt;/mat-form-field&gt;" description="Insert Material Select" toReformat="true" toShortenFQNames="true">
+    <variable name="Label" expression="" defaultValue="&quot;Label&quot;" alwaysStopAt="true" />
+    <variable name="Options" expression="" defaultValue="&quot;options&quot;" alwaysStopAt="true" />
+    <variable name="Value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <variable name="TrackFn" expression="" defaultValue="&quot;idTracker&quot;" alwaysStopAt="true" />
+    <variable name="ViewValue" expression="" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
