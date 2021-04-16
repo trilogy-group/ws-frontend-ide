@@ -189,7 +189,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -213,7 +213,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
+                <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -225,7 +225,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PRIVATE>true</PRIVATE>
                 <READONLY>true</READONLY>
               </AND>
             </match>
@@ -237,7 +237,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PRIVATE>true</PRIVATE>
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -271,7 +271,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
+                <PUBLIC>true</PUBLIC>
                 <READONLY>true</READONLY>
               </AND>
             </match>
@@ -283,7 +283,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
+                <PUBLIC>true</PUBLIC>
               </AND>
             </match>
             <order>BY_NAME</order>
