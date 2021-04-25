@@ -127,6 +127,16 @@
                       <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="ns-app-builder">
+                    <value>
+                      <FeaturePluginData displayName="NativeScript Build" pluginName="NativeScript" pluginId="org.igu.plugins.nativescript" />
+                    </value>
+                  </entry>
+                  <entry key="ns-app-runner">
+                    <value>
+                      <FeaturePluginData displayName="NativeScript" pluginName="NativeScript" pluginId="org.igu.plugins.nativescript" />
+                    </value>
+                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>
