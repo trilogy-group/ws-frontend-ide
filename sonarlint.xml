@@ -1,6 +1,5 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="nodejsPath" value="" />
     <option name="sonarQubeServers">
       <list>
         <SonarQubeServer>
@@ -12,6 +11,8 @@
       </list>
     </option>
     <option name="taintVulnerabilitiesTabDisclaimerDismissed" value="true" />
-    <rules />
+    <rules>
+      <Rule active="false" key="typescript:S3317" />
+    </rules>
   </component>
 </application>
