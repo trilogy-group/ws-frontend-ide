@@ -4,6 +4,7 @@
       <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
       <mapping pattern=".gherkin-lintrc" type="JSON" />
       <mapping pattern=".prettierrc" type="JSON" />
+      <mapping ext="info" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
