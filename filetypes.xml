@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="hanna" type="AUTO_DETECTED" />
       <mapping pattern="IntelliJ IDEA Global Settings" type="AUTO_DETECTED" />
       <mapping pattern=".gherkin-lintrc" type="JSON" />
       <mapping pattern=".prettierrc" type="JSON" />
