@@ -28,6 +28,7 @@
     <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
   </HTMLCodeStyleSettings>
   <JSON>
+    <option name="KEEP_TRAILING_COMMA" value="true" />
     <option name="OBJECT_WRAPPING" value="5" />
     <option name="ARRAY_WRAPPING" value="5" />
   </JSON>
