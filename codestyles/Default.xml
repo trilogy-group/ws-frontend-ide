@@ -48,6 +48,7 @@
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
     <option name="USE_PUBLIC_MODIFIER" value="true" />
     <option name="PREFER_AS_TYPE_CAST" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="PREFER_EXPLICIT_TYPES_VARS_FIELDS" value="true" />
     <option name="PREFER_EXPLICIT_TYPES_FUNCTION_RETURNS" value="true" />
@@ -179,7 +180,6 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
-      <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
     </indentOptions>
     <arrangement>
@@ -203,7 +203,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
+                <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -227,7 +227,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -239,19 +239,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
-                <READONLY>true</READONLY>
-              </AND>
-            </match>
-            <order>BY_NAME</order>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
+                <PUBLIC>true</PUBLIC>
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -263,7 +251,6 @@
               <AND>
                 <FIELD>true</FIELD>
                 <PROTECTED>true</PROTECTED>
-                <READONLY>true</READONLY>
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -274,7 +261,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PROTECTED>true</PROTECTED>
+                <PRIVATE>true</PRIVATE>
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -297,7 +284,20 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PROTECTED>true</PROTECTED>
+                <READONLY>true</READONLY>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PRIVATE>true</PRIVATE>
+                <READONLY>true</READONLY>
               </AND>
             </match>
             <order>BY_NAME</order>
