@@ -13,6 +13,7 @@
       <mapping ext="ms" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <removed_mapping ext="graphqlconfig" approved="true" type="GraphQL Config" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
     </extensionMap>
   </component>
 </application>
